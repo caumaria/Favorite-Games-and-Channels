@@ -45,25 +45,15 @@ const channelListData = [
 ]
 
 const socialListData = [
-  {
-    url: "https://www.twitch.tv/cacau_",
-    imageUrl: "/assets/twitch.svg",
-    alt: "Twitch de Cau"
+    {
+    url: "https://www.linkedin.com/in/cau-maria-923a4a185/",
+    imageUrl: "/assets/linkedin.svg",
+    alt: "LinkedIn de Cau"
   },
   {
-    url: "https://twitter.com/confianacall",
-    imageUrl: "/assets/twitter.svg",
-    alt: "Twitter de Cau"
-  },
-  {
-    url: "https://www.youtube.com/channel/UC_P4n2DhbUYsOUgt-oba3Ew",
-    imageUrl: "/assets/youtube.svg",
-    alt: "Youtube de Cau"
-  },
-  {
-    url: "https://www.instagram.com/caumaria/",
-    imageUrl: "assets/instagram.svg",
-    alt: "Instagram de Cau"
+    url: "https://github.com/caumaria",
+    imageUrl: "assets/github.svg",
+    alt: "Github de Cau"
   }
 ]
 
@@ -94,7 +84,7 @@ function App() {
           title="Canais e Streamers"
           subtitle="Lista de canais e transmissões que eu não perco"
           className="channel-list"
-          >          
+          >
 
           {
             channelListData.map(function(item) {
